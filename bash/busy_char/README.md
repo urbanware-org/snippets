@@ -4,7 +4,7 @@ Code display a busy character (e. g. spinner) to signalize that the process is s
 
 #### Sample output
 
-<img src="https://raw.githubusercontent.com/urbanware-org/snippets/master/bash/busy_char/busy_char.gif" alt="Busy char sample output" width="48%">
+<img src="https://raw.githubusercontent.com/urbanware-org/snippets/master/bash/busy_char/busy_char.gif" alt="Busy char sample output">
 
 ## Usage
 
