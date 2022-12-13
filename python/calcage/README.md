@@ -6,7 +6,14 @@ This module is also available for the *Julia* programming language [here](https:
 
 ## Usage
 
-Notice that the following examples have been created on February 19<sup>th</sup>, 2018.
+For using the method, there are three parameters required in the following order:
+
+*   Day
+*   Month
+*   Year or age
+
+Notice that the following examples have been created on February 19<sup>th</sup>,
+2018.
 
 ### Age in years
 

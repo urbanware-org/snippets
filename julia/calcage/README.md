@@ -6,6 +6,12 @@ This module is also available for the *Python* programming language [here](https
 
 ## Usage
 
+For using the method, there are three parameters required in the following order:
+
+*   Day
+*   Month
+*   Year or age
+
 Notice that the following examples have been created on February 19<sup>th</sup>, 2018.
 
 ### Age in years
