@@ -47,4 +47,3 @@ or in the short form:
 ```python
 phrasegen(6, True, False, True, True, " ", "words.txt")
 ```
-
