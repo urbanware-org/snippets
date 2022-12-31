@@ -1,8 +1,10 @@
+import datetime
+
+
 def calcage(input_day, input_month, input_value):
     """
         Method to to either calculate a person's age or year of birth.
     """
-    import datetime
 
     today = str(datetime.date.today()).split("-")
     current_year = int(today[0])
