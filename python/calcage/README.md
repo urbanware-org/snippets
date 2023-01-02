@@ -30,6 +30,12 @@ it returns the value `28`.
 *   Date of birth: `1990-01-04`
 *   Age in years: `28`
 
+Of course you can also change the order of the parameters when calling the method:
+
+```python
+calcage(birthday_month=1, birthday_day=4, birthday_year_or_age=1990)
+```
+
 ### Year of birth
 
 What is the year of birth from a person with the age of 31 that was born on February 22<sup>nd</sup>?
@@ -44,3 +50,9 @@ it returns the value `1986`.
 
 *   Date of birth: `1986-02-22`
 *   Age in years: `31`
+
+Of course you can also change the order of the parameters when calling the method:
+
+```python
+calcage(birthday_month=1, birthday_day=4, birthday_year_or_age=1990)
+```
