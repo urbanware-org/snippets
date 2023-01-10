@@ -10,6 +10,8 @@ Methods to print the current status of an action e.g. with multiple steps using 
 
 ### Code
 
+#### Sample output
+
 The sample output was created using the following code.
 
 ```bash
@@ -24,6 +26,28 @@ status_done "92m"
 status_msg "Reading file #3" "90m"
 linecount_foobar3=$(wc -l /tmp/foobar3.txt)
 status_done "92m"
+```
+
+### Conditions
+
+Of course, the method `status_done` can be used not only as a progress indicator but also as status.
+
+For example:
+
+```bash
+file="/tmp/foobar.txt"
+status_msg "Reading file '$file'" "90m"
+if [ ! -f "$file" ]; then
+    status_done "91m"   # given path does either not exist or is not a file,
+                        # so print a red circle
+else # file exists
+    linecount=$(wc -l "$file")
+    if [ $linecount -lt 1 ]; then
+        status_done "93m"   # file is empty, print a yellow circle
+    else
+        status_done "92m"   # file is not empty, print a green circle
+    fi
+fi
 ```
 
 ### Color codes
