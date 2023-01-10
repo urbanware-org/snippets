@@ -28,7 +28,7 @@ linecount_foobar3=$(wc -l /tmp/foobar3.txt)
 status_done "92m"
 ```
 
-### Conditions
+#### Conditions
 
 Of course, the method `status_done` can be used not only as a progress indicator but also as status.
 
