@@ -7,4 +7,4 @@
 *   **status_light**
     *   Methods to print the current status of an action e.g. with multiple steps using a circle that changes its color
 *   **video2jpg**
-    *   Some lines of code to convert a video into *JPEG images* using *FFmpeg*.
+    *   Some lines of code to convert a video into *JPEG* images using *FFmpeg*.
