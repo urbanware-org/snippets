@@ -6,3 +6,5 @@
     *   Method to create simple passphrases from a word list
 *   **pltn**
     *   Method to convert phone numbers containing letters to pure numbers
+*   **shuffle**
+    *   Snippet to shuffle files and adding leading numbers
