@@ -76,13 +76,13 @@ while True:
     choice = input("> ")
 
     if choice == "0":
-        sys.exit()
+        break
     elif choice == "1":
         shuffle_enum(dir_source, dir_target, "shuffle")
-        sys.exit()
+        break
     elif choice == "2":
         shuffle_enum(dir_source, dir_target, "reshuffle")
-        sys.exit()
+        break
     elif choice == "3":
         shuffle_enum(dir_source, dir_target, "remove")
-        sys.exit()
+        break
