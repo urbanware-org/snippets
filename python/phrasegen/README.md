@@ -1,6 +1,6 @@
 # phrasegen
 
-Simple *Python* method to to generate a passphrase of words read from a given text file.
+Simple *Python* method to generate a passphrase of words read from a given text file.
 
 The method requires the `random` module in order to work.
 
