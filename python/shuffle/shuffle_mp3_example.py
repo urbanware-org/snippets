@@ -27,6 +27,11 @@ def shuffle_enum(dir_source, dir_target, action=""):
 
     random.seed()
 
+    # Try to sort the files so that the same artist does not appear several
+    # times in a row. If this does not succeed after the specified number of
+    # attempts, the operation will be aborted. The shuffle itself will still
+    # be performed, but after that the same artist will appear several times
+    # (at least once) in a row somewhere.
     count = 0
     for tries in range(shuffle_max):
         count += 1
