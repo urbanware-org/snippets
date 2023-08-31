@@ -1,5 +1,16 @@
 #!/usr/bin/env python
 
+#
+# This in an example to shuffle and enumerate MP3 files using a simple method.
+#
+# Notice that this script is not meant to be a productive tool. It simply is
+# an example for a quick-and-dirty solution for a simple MP3 shuffle tool I
+# wrote for a good friend of mine.
+#
+# See 'https://github.com/urbanware-org/snippets/tree/main/python/shuffle' for
+# details.
+#
+
 import os
 import random
 import shutil
