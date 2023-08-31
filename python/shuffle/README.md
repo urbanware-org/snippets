@@ -17,7 +17,7 @@ In case there are less than 100 files, the enumeration prefix will consist of 2 
 ...
 ```
 
-and in case there are 100 files and more (up to 999), the prefix consists of 3 digits. However, in case ther are more than 999 files, there will be a 2-digit prefix again (which might cause problems) as there is no handler for more files than 999.
+and in case there are 100 files and more (up to 999), the prefix consists of 3 digits. However, in case there are more than 999 files, there will be a 2-digit prefix again (which might cause problems) as there is no handler for more files than 999.
 
 The method to shuffle and enumerate is a quick-and-dirty solution for a simple MP3 shuffle tool I wrote for a good friend of mine. For details the `shuffle_mp3_example.py` (please read the comments inside the file before using it, as it not actually is a tool itself).
 
