@@ -59,6 +59,9 @@ def shuffle_enum(dir_source, dir_target, action=""):
 
     num = 1
     for item in mp3_list_new:
+        # The following code is quite improvable. In case there are more than
+        # 999 files, there will be a 2-digit prefix again (which might cause
+        # problems) as there is no handler for more files than 999.
         if len(mp3_list_new) > 99:
             prefix = (f"{num:03d}") + " "
         else:
