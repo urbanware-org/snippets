@@ -39,7 +39,7 @@ def shuffle_enum(dir_source, dir_target, action=""):
             break
 
     if not action == "remove":
-        print("Sorting operations taken: " + str(count) + " (maximum is " +
+        print("Shuffling operations taken: " + str(count) + " (maximum is " +
               str(shuffle_max) + ")")
 
     num = 1
