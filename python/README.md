@@ -7,4 +7,4 @@
 *   **pltn**
     *   Method to convert phone numbers containing letters to pure numbers
 *   **shuffle**
-    *   Snippet to shuffle files and adding leading numbers
+    *   Snippet to shuffle and enumerate files (by adding leading numbers)
