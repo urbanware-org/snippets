@@ -3,7 +3,6 @@
 import os
 import random
 import shutil
-import sys
 
 dir_source = "/home/johndoe/music/in"
 dir_target = "/home/johndoe/music/out"
