@@ -45,11 +45,11 @@ Possible actions are:
 For example, if you want to shuffle and enumerate all files inside `/home/johndoe/music` and copy the processed files to `/home/johndoe/music_shuffled` (the directory alrady must exist, of course) it would look like this
 
 ```python
-phrasegen(dir_source="/home/johndoe/music", dir_target="/home/johndoe/music_shuffled", action="shuffle")
+shuffle_enum(dir_source="/home/johndoe/music", dir_target="/home/johndoe/music_shuffled", action="shuffle")
 ```
 
 or in the short form:
 
 ```python
-phrasegen("/home/johndoe/music", "/home/johndoe/music_shuffled", action="shuffle")
+shuffle_enum("/home/johndoe/music", "/home/johndoe/music_shuffled", action="shuffle")
 ```
