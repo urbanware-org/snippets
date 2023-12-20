@@ -1,10 +1,10 @@
-# Simply run this script which will "extract" the EICAR anti-malware testfile
-# stored as Base64 string into the directory where this PowerShell script file
-# is located.
+# Simply run this script file inside the PowerShell console which will then
+# "extract" the EICAR anti-malware testfile stored as a Base64 string by
+# decoding and writing it into the file 'eicar.com' inside the directory from
+# where the script file is being run.
 #
-# This will create the file 'eicar.com' inside the directory where the script
-# is being run. After that your anti-virus software should raise an alert and
-# depending on that program initiate further actions.
+# After that, the real-time protection of your anti-virus software should
+# raise an alert and/or remove the file.
 
 $eicar = "WDVPIVAlQEFQWzRcUFpYNTQoUF4pN0NDKTd9JEVJQ0FSLVNUQU5EQVJELUFOVElWSVJVUy1URVNULUZJTEUhJEgrSCo="
 Write-Host "Extracting anti-malware testfile content to 'eicar.com'."
