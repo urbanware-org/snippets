@@ -52,13 +52,13 @@ fi
 
 ### Color codes
 
-| Color name    | Code          | Color name    | Code          |
-| ------------- | ------------- | ------------- | ------------- |
-| Black         | `30m`         | Dark gray     | `90m`         |
-| Dark red      | `31m`         | Light red     | `91m`         |
-| Dark green    | `32m`         | Light green   | `92m`         |
-| Brown         | `33m`         | Yellow        | `93m`         |
-| Dark blue     | `34m`         | Light blue    | `94m`         |
-| Dark purple   | `35m`         | Light purple  | `95m`         |
-| Dark cyan     | `36m`         | Light cyan    | `96m`         |
-| Light gray    | `37m`         | White         | `97m`         |
+| Color name    | Code          |   | Color name    | Code          |
+| ------------- | ------------- | - | ------------- | ------------- |
+| Black         | `30m`         |   | Dark gray     | `90m`         |
+| Dark red      | `31m`         |   | Light red     | `91m`         |
+| Dark green    | `32m`         |   | Light green   | `92m`         |
+| Brown         | `33m`         |   | Yellow        | `93m`         |
+| Dark blue     | `34m`         |   | Light blue    | `94m`         |
+| Dark purple   | `35m`         |   | Light purple  | `95m`         |
+| Dark cyan     | `36m`         |   | Light cyan    | `96m`         |
+| Light gray    | `37m`         |   | White         | `97m`         |
