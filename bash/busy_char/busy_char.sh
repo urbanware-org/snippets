@@ -1,7 +1,7 @@
 # This is a simple example that does not make any sense actually, just to show
 # how you can tell the user that the system/process seems to be alive. In case
-# you are a sadistic bastard, you may set a while-true loop in combination
-# with a delay. None of my business at all.
+# you are a sadistic bastard, you may set an infinite loop in combination with
+# a delay. None of my business at all.
 
 # You can also use other characters (such as Unicode characters) instead of a
 # spinning bar. For details see the 'CHAR_EXAMPLES' file.
@@ -13,8 +13,8 @@ bc_current=0
 # be returned.
 input_file="/var/log/syslog"
 
-# The following contains 'sleep' command which is absolutely unnecessary and
-# has only been added to to make the dash animation easier to view.
+# The following code block uses 'sleep' for a delay, which is absolutely
+# unnecessary and has only been to make the dash animation easier to view.
 
 line_count=0
 while read line; do
