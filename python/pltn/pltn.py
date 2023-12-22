@@ -1,4 +1,7 @@
 def phone_letters_to_numbers(number=""):
+    """
+        Method to convert phone numbers containing letters to pure numbers.
+    """
     return \
         number.upper().replace("A", "2").replace("B", "2").replace("C", "2") \
                       .replace("D", "3").replace("E", "3").replace("F", "3") \
