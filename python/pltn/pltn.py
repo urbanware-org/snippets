@@ -13,3 +13,7 @@ def phone_letters_to_numbers(number=""):
                       .replace("T", "8").replace("U", "8").replace("V", "8") \
                       .replace("W", "9").replace("X", "9").replace("Y", "9") \
                       .replace("Z", "9")
+
+
+# Usage example:
+print(phone_letters_to_numbers("KL5-FOOBAR"))
