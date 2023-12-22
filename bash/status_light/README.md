@@ -1,10 +1,10 @@
 # status_light
 
-Methods to print the current status of an action e.g. with multiple steps using a circle that changes its color.
+Functions to print the current status of an action e.g. with multiple steps using a circle that changes its color.
 
-#### Sample output
+For example:
 
-<img src="https://raw.githubusercontent.com/urbanware-org/snippets/master/bash/status_light/status_light.gif" alt="Busy char sample output">
+<img src="https://raw.githubusercontent.com/urbanware-org/snippets/master/bash/status_light/status_light.gif" alt="Busy char sample example">
 
 ## Usage
 
@@ -16,21 +16,21 @@ The sample output was created using the following code.
 
 ```bash
 status_msg "Reading file #1" "90m"
-linecount_foobar1=$(wc -l /tmp/foobar1.txt)
+linecount_file1=$(wc -l /tmp/foobar1.txt)
 status_done "92m"
 
 status_msg "Reading file #2" "90m"
-linecount_foobar2=$(wc -l /tmp/foobar2.txt)
+linecount_file2=$(wc -l /tmp/foobar2.txt)
 status_done "92m"
 
 status_msg "Reading file #3" "90m"
-linecount_foobar3=$(wc -l /tmp/foobar3.txt)
+linecount_file3=$(wc -l /tmp/foobar3.txt)
 status_done "92m"
 ```
 
 #### Conditions
 
-Of course, the method `status_done` can be used not only as a progress indicator but also as status.
+Of course, the function `status_done` can be used not only as a progress indicator but also as a status.
 
 For example:
 
