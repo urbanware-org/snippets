@@ -13,8 +13,9 @@ bc_current=0
 # be returned.
 input_file="/var/log/syslog"
 
-# The following code block uses 'sleep' for a delay, which is absolutely
-# unnecessary and has only been to make the dash animation easier to view.
+# The first of the following code blocks uses 'sleep' for a delay, which is
+# absolutely unnecessary and was only added to make the dash animation easier
+# to view.
 
 line_count=0
 while read line; do
