@@ -2,7 +2,7 @@ import Dates
 
 function calcage(birthday_day, birthday_month, birthday_year_or_age)
     """
-        Method to to either calculate a person's age or year of birth.
+        Function to to either calculate a person's age or year of birth.
     """
     if typeof(birthday_day) != Int64
         birthday_day = parse(Int, birthday_day)
